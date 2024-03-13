@@ -92,10 +92,21 @@ ul{
 }
 .carousel-indicators {
     position: absolute;
-    top: -2%; /* Adjust this value as needed */
+    top: -1.2%; /* Adjust this value as needed */
     /* width: 100%; */
     justify-content: center;
     padding-top: 12px;
+  }
+  @media(min-width:500px) and (max-width:604px){
+    .carousel-indicators{
+        top: -0.9%;
+    }
+  }
+
+  @media (min-width:605px){
+    .carousel-indicators{
+        top: -1.8%;
+    }
   }
   .carousel-indicators button {
     background-color:black  !important; /* Visible against the images */
@@ -116,7 +127,9 @@ width:49% !important;
 
 
 
-
+.about-us h3{
+    text-align: center;
+}
 
 
 
