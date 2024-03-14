@@ -169,20 +169,22 @@ footer ul {
 
 
 
-.heading {
-    font-size: 22px;
+.rating-heading {
+   
     margin-right: 3px;
-    text-align: center;
+   
   }
 
 
   .stars{
     text-align: center;
+    font-size: 12px;
     
  }
   
   .stars span{
-    font-size: 22px;
+    margin: 4px;
+    font-size: 2em;
     color:#ffd700;
     text-align: center;
   }
@@ -198,11 +200,13 @@ footer ul {
   {width: 0.5%; height: 24px; background-color: #ff9800;}
   .bar-1 
   {width: 0.1%; height: 24px; background-color: #f44336;}
-  
+
  
  .rating span{
     font-size: small;
     justify-content: space-between;
+    margin-top: 5px;
+    text-align: center;
     
  }
   .bar-container{
