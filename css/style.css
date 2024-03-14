@@ -1,5 +1,5 @@
 *a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 header{
@@ -130,7 +130,7 @@ width:49% !important;
 
 .about-us h3{
     text-align: center;
-    padding-top:6%;
+    
 }
 
  #footer-container h4{
@@ -145,3 +145,75 @@ footer ul {
 .list-group a{
     background-color: transparent;
 }
+
+#about-us-text{
+    
+    background-image: linear-gradient(to top,gray,#c4c5c7,#ebebeb, #ffffff);
+    border-radius: 7px;
+    margin-top:7%;
+    padding:0 0 3% 0 !important;
+}
+
+#about-us-text h6{
+    margin:1%;
+    
+}
+.h8{
+    font-size: 19px;
+}
+
+.form-group{
+    background-color: transparent;
+}
+
+
+
+
+.heading {
+    font-size: 22px;
+    margin-right: 3px;
+    text-align: center;
+  }
+
+
+  .stars{
+    text-align: center;
+    
+ }
+  
+  .stars span{
+    font-size: 22px;
+    color:#ffd700;
+    text-align: center;
+  }
+
+
+ .bar-5 
+  {width: 74.4%; height: 24px; background-color: #04AA6D;}
+  .bar-4 
+  {width: 20%; height: 24px; background-color: #2196F3;}
+  .bar-3
+   {width: 5%; height: 24px; background-color: #00bcd4;}
+  .bar-2 
+  {width: 0.5%; height: 24px; background-color: #ff9800;}
+  .bar-1 
+  {width: 0.1%; height: 24px; background-color: #f44336;}
+  
+ 
+ .rating span{
+    font-size: small;
+    justify-content: space-between;
+    
+ }
+  .bar-container{
+    
+    height: 24px;
+    background-color: white;
+    margin-top: 5px;
+  }
+  
+
+
+  @media (min-width: 768px){
+
+  }
