@@ -221,3 +221,23 @@ footer ul {
   @media (min-width: 768px){
 
   }
+
+
+  .card-body-register{ 
+    display:none
+  }
+
+  #register:hover   
+    .card-body-register { 
+    display:block;
+}
+#register:hover 
+  .card-body-login{
+    display:none;
+  }
+
+
+ 
+footer{
+    font-size: 14px !important;
+}

@@ -1,0 +1,40 @@
+#text-gold{
+    
+  background: linear-gradient(to bottom left, #FECA00 38%, #D07800 74%, #FF9300 91%);
+  background-clip: text;
+  color: transparent;
+}
+
+
+footer{
+  height:15%;
+}
+header,#hidden-footer{
+  display:none;
+}
+
+#user-container{
+  border-color: transparent;
+}
+
+
+@media (min-width: 400px) and  (max-width: 663px){
+  #user-container{
+    width:70%;
+  }
+  
+ }
+
+ @media (min-width: 664px) and  (max-width: 768px){
+  #user-container{
+    width:50%;
+  }
+  
+ }
+
+
+ @media (min-width: 769px){
+  #user-container{
+    width:35%;
+  }
+}
