@@ -10,14 +10,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/user.css">
         <!-- <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css"> -->
         <!-- <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css"> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
         <!-- end of links------------------------------------------- -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <title>MK TIMES&reg;</title>  
+        <title>MK TIMES&reg;</title> 
         <!-------title--------->
         <style>
     
@@ -27,7 +27,7 @@
 
 
 
-<body>
+
 <header>
             <div class="container-fluid"> 
                 <div class="row">
@@ -58,15 +58,6 @@
                                             <a class="dropdown-item" href="all.htm">All</a>
                                             <a class="dropdown-item" href="men-html">Men</a>
                                             <a class="dropdown-item" href="women-html">women</a>
-                                            <span class="dorpdown-submenu  dropend">
-                                                <a class="dropdown-item dropdown-toggle" href="women-html">women</a>
-                                                <ul class="dropdown-menu" data-bs-toggle="dropdown-menu">  <!--       search more later-->
-                                                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
-                                                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
-                                                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
-                                                    <li><a class="dropdown-item" href="#">Sub-item 4</a></li>
-                                                </ul>
-                                            </span>
                                             <a class="dropdown-item" href="unisex-html">Unisex</a>
 
                                         </div>
@@ -132,13 +123,12 @@
                             
                               
                             <div class="dropdown  pl-0">
-                                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <a href="login.html"><i class="bi bi-person text-black"></i></a>
+                                    <button class="btn  dropdown-toggle"   type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a href="users.html"><i class="bi bi-person text-black"></i></a>
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                    <a class="dropdown-item" href="/html/signup.html">Sign-Up</a>
-                                    <a class="dropdown-item" href="/html/login.html">Sign-In</a>
-                                    <a class="dropdown-item" href="login-html">Sign-Out</a>
+                                    <a class="dropdown-item" href="login.htm">Sign-Up</a>
+                                    <a class="dropdown-item" href="login-html">Sign-In</a>
                                     
                                 </div>
                             </div>
@@ -150,246 +140,63 @@
 </header>
 
 
-<div class="slideshow-container">
+
+
+<div class="card container-fluid col-lg-4 col-md-8 col-sm-12 text-center mb-1" id="user-container">
+  <div class="logo">
+  <a href="index.html" class="navbar-brand" id="text-gold" style="font-size: large !important;">
+    MK<i class="bi bi-alarm"></i>TIMES<sup id="text-gold">&reg;</sup>
+</a>
+</div>
+ <div class="inner-form-container">
+  <div class="card-header">
+      
+    <h6 class="card-title">Login To Yor Account</h6>
+
+    </div>
+    <div class="card-body-login">
+      
+      <form action="">
+        <div>
+          
+          <div class="username">
+        <input type="text" name="username"    placeholder="Username"/> 
+      </div>
+      <div class="password">
+        <input type="password"  name="passwd"   placeholder="Password"/>
+      </div>
     
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ -67.png'); ">
-        <div class="cta-container">
-            <p class="cta-text">Curate Your Collection of Distinction - Claim Your Masterpiece Now</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ -42.png');">
-        <div class="cta-container">
-            <p class="cta-text">Craft Your Legacy - Embark on a Journey of Exquisite Splendor</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
+      <div class="terms">
+        <input type="checkbox"  id="terms">
+        <label for="terms">&ensp;Agree To All Terms And Conditions</label>
+      </div>
 
+  <input type="submit" name="login" id="submit" value="login" >
 
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ -65.png');">
-        <div class="cta-container">
-            <p class="cta-text">Witness Elegance in Motion - Secure Your Limited Edition Timepiece</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
     </div>
-
+    <div class="register">
+    If You don't have an account please:
+    <a href="/html/signup.html"  >Create Account</a><br>
+   
+  </div>
+    </div>
+  </form>
     
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ -60.png');">
-        <div class="cta-container">
-            <p class="cta-text">From the Depths of the Earth to the Crest of Nobility - Claim Your Treasure</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
-
-    <div class="mySlides" style="background-image: url('../img/product/Designer\ \(33\).png');">
-        <div class="cta-container">
-            <p class="cta-text">Envision Elegance - Embrace the Artistry of Luxurious Adornments</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ \(7\).png');">
-        <div class="cta-container">
-            <p class="cta-text">Beyond Precision - Step into the World of Unparalleled Craftsmanship and Innovation.</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
-    <div class="mySlides" style="background-image: url('../img/products/Designer\ -63.png');">
-        <div class="cta-container">
-            <p class="cta-text">Unveil the Mastery of Time - Your Exclusive Invitation Awaits</p>
-            <button class="cta-button">Shop Now</button>
-        </div>
-    </div>
- 
- 
-</div>
-
-<h3 class="card-header text-center pb-2 mt-0 m-2">NEW ARRIVAL</h3></a>
-<div class="container-fluid d-flex flex-wrap justify-content-between align-item-center" id="new-arrival">
-
-
-<div class="card align-item-center mb-2 col-sm-12 col-md-6 col-lg-3"   style="width: 18rem;">
-    <img src="../img/products/Designer (37).png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Clear-Gold&Rhodium</h5>
-      <p class="card-text">The best in this collection,the most  popular one, and highly rated.</p>
-      <a href="#" class="btn ">More Info</a>
-    </div>
-    <div class="container-fluid d-flex justify-content-between">
-        <h5>£41,100.00</h5>
-        <h5><i class="bi bi-heart"></i>&nbsp;<i class="bi bi-cart"></i></h5>
-       </div>
-  </div>
-
-  <div class="card  align-item-center mb-2 col-sm-12 col-md-6 col-lg-3"  style="width: 18rem";>
-    <img src="../img/product/Designer (35).png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">RED-Diamond&Gold</h5>
-      <p class="card-text">The best in this collection,the most  popular one, and highly rated.</p>
-      <a href="#" class="btn ">More-Info</a>
-    </div>
-    <div class="container-fluid d-flex justify-content-between" >
-        <h5>£39,200.00</h5>
-        <h5><i class="bi bi-heart"></i>&nbsp;<i class="bi bi-cart"></i></h5>
-       </div>
-  </div>
-  <div class="card align-item-center mb-2 col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
-    <img src="../img/products/Designer (23).png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Emerald-Diamond&GOLD</h5>
-      <p class="card-text">The best in this collection,the most  popular one, and highly rated.</p>
-      <a href="#" class="btn ">More Info</a>
-    </div>
-    <div class="container-fluid d-flex justify-content-between  ">
-        <h5>£51,430.00</h5>
-        <h5><i class="bi bi-heart"></i>&nbsp;<i class="bi bi-cart"></i></h5>
-       </div>
-  </div>
-
-  <div class="card  align-item-center mb-2 col-sm-12 col-md-6 col-lg-3 " style="width: 18rem;">
-    <img src="..//img/products/Designer (14).png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Yellow-Gold&Diamond</h5>
-      <p class="card-text">The best in this collection,the most  popular one, and highly rated.</p>
-      <a href="#" class="btn ">More-info</a>
-    </div>
-   <div class="container-fluid d-flex justify-content-between  ">
-    <h5>£44,999.00</h5>
-    <h5><i class="bi bi-heart"></i>&nbsp;<i class="bi bi-cart"></i></h5>
-   </div>
-  </div>
-</div>
-
-
-<p class="pb-1"> 
-    <h3 class="card-header text-center pt-3 ">  SOON   ON MK TIMES</h3>
-    <h6 class="text-center ">To make our offerings more appealing to customers, we will focus on elegance, quality, and sophistication. By incorporating luxurious bracelets, earrings, rings, and necklaces, we aim to create a collection that exudes timeless beauty. Our commitment to excellence ensures that each piece will captivate discerning customers and enhance their personal style. Stay tuned for the upcoming launch of these exquisite items
-</p>
-<div id="carouselPromotion" class="carousel slide" data-bs-target="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselPromotion" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselPromotion" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselPromotion" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselPromotion" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-<div class="carousel-inner">
-<div class="carousel-item  ">
-<div class="row" id="promo_image">
-<div class="col-md-6 col-12" id="promo_image">
-    <img src="../img/product/Designer (63).png" class="d-block w-100   img-fluid" alt="product-coming-soon">
-</div>
-<div class="col-md-6 col-12"id="promo_image">
-    <img src="../img/product/Designer (72).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-</div>
-<div class="col-md-6 col-12"id="promo_image">
-    <img src="../img/product/Designer (64).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-</div>
-<div class="col-md-6 col-12"id="promo_image">
-    <img src="../img/product/Designer (77).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-</div>
 </div>
 </div>
 
 
 
 
-<div class="carousel-item">
-<div class="row">
-    <div class="col-md-6 col-12"id="promo_image">
-        <img src="../img/products/Designer -48.png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-    </div>
-    <div class="col-md-6 col-12" id="promo_image">
-        <img src="../img/product/Designer (56).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-    </div>
-    <div class="col-md-6 col-12" id="promo_image">
-        <img src="../img/products/Designer -57.png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-    </div>
-    <div class="col-md-6 col-12" id="promo_image">
-        <img src="../img/product/Designer (52).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-    </div>
-</div>
-  </div>
 
 
-  <div class="carousel-item">
-    <div class="row">
-        <div class="col-md-6 col-12 "  id="promo_image">
-            <img src="../img/product/Designer (86).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/product/Designer (87).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/product/Designer (88).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/product/Designer (92).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-</div>
-</div>
-
-<div class="carousel-item  active">
-    <div class="row">
-        <div class="col-md-6 col-12 "  id="promo_image">
-            <img src="../img/products/Designer -70.png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/products/Designer (96).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/products/Designer (97).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-        <div class="col-md-6 col-12"  id="promo_image">
-            <img src="../img/products/Designer (98).png" class="d-block w-100  mb-2 img-fluid" alt="product-coming-soon">
-        </div>
-</div>
-</div>
-
-
-</div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromotion" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromotion" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-
-
-
-
-<h3 class="card-header text-center p-3 m-2"><i class="bi bi-emoji-smile" style="color:#202D40;"></i> OUR LATEST NEWS <i class="bi bi-emoji-smile" style="color:#202D40;"></i></h3>
- 
-<div class="card container mb-3  " style="max-width: 950px; align-items:center; margin: auto; background-image: linear-gradient(to bottom right,black, #434343, #100e11)">
-    <div class="row g-0 ">
-      <div class="col-lg-6 col-md-6 col-sm-12 ncol-xs-12">
-        <img src="../img/product/Designer - 2024-03-12T230633.632.png" class="img-fluid rounded-start" alt="Leith Branch">
-      </div>
-      <div class="col-lg-6  col-m-6 col-sm-12 col-xs-12">
-        <div class="card-body text-white">
-          <h5 class="card-title">OPENING NEW BRANCH EVENT</h5>
-          <p class="card-text">We are delighted to announce the opening of our MK TIMES Leith Branch on 17th.<br>AT MK TIMES, we believe that every second counts. Our curated collection of luxury watches embodies timeless elegance, impeccable craftsmanship, and the spirit of adventure. Whether you seek a classic dress watch, a rugged diver’s companion, or a statement piece that turns heads, our Leith branch has it all.<br>
-           WHAT WAITS YOU: Exclusive Timepieces,Expert Guidance, Opening Event Extravaganza,Complimentary watch sizing and adjustments, and More.<BR>
-           
-           TIME WAITS FOR NO ONE: As the hands of our watches move inexorably forward, so does life. Be part of history—be part of MK TIMES Leith.
-              
-            </p>
-        </div>
-      </div>
-    </div>
-  </div>
-        
-            
-
-  <footer  style="background-color: #EAEAEA;">
+<!-- 
+<footer  style="background-color: #EAEAEA;" id="hidden-footer">
    
     <div class="container" id="footer-container">
         
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12"   >
+          <div class="col-lg-3 col-md-6 col-sm-12">
         
             <h4>Contact The</h4>
             <h6>HEADQUARTER </h6>
@@ -397,7 +204,7 @@
             <i class="bi bi-phone-fill"></i>Phone: 00447222879744<br>
             <i class="bi bi-geo-alt-fill"></i>142 plaza place MK Towers<br>Edinburgh&emsp;&emsp;&emsp;EH22 1RD 
             <h6 class="text-uppercase">or choose a branch</h6>
-            <ul class="list-group" id="country-list">
+            <ul class="list-group">
                 <li ><a href="" class="list-group-item">AUSTRALIA</a></li>
                 <li ><a href=""class="list-group-item">AFRICA</a></li>
                 <li ><a href=""class="list-group-item">ASIA</a></li>
@@ -411,7 +218,7 @@
             <h4>FAQ</h4>
             You have a question? have a look at our Frequently Asked Questions, you may find an answer.<br>
             <h6>What is your question about?</h6>
-            <ul class="list-group"  id="faq-list">
+            <ul class="list-group">
                 <li><a href="" class="list-group-item">General Inquiries</a></li>
                 <li><a href="" class="list-group-item">Customer Service</a></li>
                 <li><a href="" class="list-group-item">Anything Else</a></li>
@@ -545,10 +352,10 @@
 </div>
 </div>
 <div>
-      <!-- Second Parent Div -->
-      <div class="container">
+    
+      <div class="container"    id="copyright">
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 ">
             <i class="fas fa-credit-card"></i>
             <i class="fab fa-paypal"></i>
             <i class="fab fa-apple-pay"></i>
@@ -570,25 +377,30 @@
         <a href="#"><i class="bi bi-telegram text-black"></i></a>&nbsp;
         <a href="#"><i class="bi bi-whatsapp text-black"></i></a>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <span class="ml-5">All Rights Reserved To:&#169;2024 <span id="text-gold">MK<i class="bi bi-alarm"></i>TIMES&#8482;</span></span>
-    
-          </div>
+          
         </div>
       </div>
       <div>
-      
-    </footer>
+        <div class="col-lg-4 col-md-6 col-sm-12" id="copyright" style="background-color:  #EAEAEA; text-align: center;">
+          <span class="ml-5">All Rights Reserved To:&#169;2024 <span id="text-gold">MK<i class="bi bi-alarm"></i>TIMES&#8482;</span></span>
+    
+        </div>
+    </footer> -->
+<footer>
+    <div class="w-100 " id="copyright" style="background-color:  #EAEAEA; text-align: center;">
+      <span class=" text-black">All Rights Reserved To:&#169;2024 <span id="text-gold">MK<i class="bi bi-alarm"></i>TIMES&#8482;</span></span>
+
+    </div>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="../js/main.js" ></script>
+<script src="../js/main.js" ></script> 
 <script>
+  
 
-   
+
 </script>
 </body>
 </html>
-
-

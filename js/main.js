@@ -15,18 +15,36 @@ function showSlides() {
 
 showSlides(); 
 
-function toggleElements(elementId) {
-  const register = document.querySelector('.card-body-register');
-  const login = document.querySelector('.card-body-login');
-
-  if (elementId === 'register') {
-      register.style.display = 'block';
-      login.style.display = 'none';
-  } else if (elementId === 'login') {
-      register.style.display = 'none';
-      login.style.display = 'block';
-  }
-}
 
 
 
+
+
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const signUpLink = document.querySelector(".dropdown-item[href='sign-up.html']");
+        const signInLink = document.querySelector(".dropdown-item[href='sign-in.html']");
+
+        signUpLink.addEventListener("click", function (event) {
+            // Show sign-up form (you can implement this logic)
+            event.preventDefault(); // Prevent default link behavior
+        });
+
+        signInLink.addEventListener("click", function (event) {
+            // Show sign-in form (you can implement this logic)
+            event.preventDefault(); // Prevent default link behavior
+        });
+    });
+
+
+
+
+    // $(document).ready(function () {
+    //     $('#carousel1').carousel();
+    //     $('#carousel2').carousel();
+    // });
