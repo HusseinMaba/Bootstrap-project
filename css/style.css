@@ -312,6 +312,12 @@ footer{
         left: 25%;
     }   
 
-    #faq-boxes {
-        te
+
+    .privacy-policy{
+        margin:5px;
+    }
+
+
+    .privacy-policy h5{
+        text-align: center;
     }
