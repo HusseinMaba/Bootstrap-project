@@ -286,3 +286,19 @@ footer{
     #contact-us-info img{
         border-radius: none;
     }
+
+    #input-box {
+        border-top-color:transparent ;
+        border-right-color: transparent;
+        border-left-color:transparent ;
+       
+     
+    }
+
+
+    #radio{
+      
+        padding-left: 14%;
+    }
+
+   
