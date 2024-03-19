@@ -302,3 +302,16 @@ footer{
     }
 
    
+
+    #faq-boxes  h6{
+        position: relative;
+        border:1px solid transparent;
+        border-radius: 5px;
+        background-color: #EAEAEA;
+        width:60%;
+        left: 25%;
+    }   
+
+    #faq-boxes {
+        te
+    }
